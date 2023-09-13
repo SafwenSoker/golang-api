@@ -1,9 +1,9 @@
 name: Continuous Integration
 on: push
 env:
-  DB_NAME:: test
-  DB_USER:: root
-  DB_PASSWORD:: L818D-M1MFG.NO.389107
+  DB_NAME: test
+  DB_USER: root
+  DB_PASSWORD: L818D-M1MFG.NO.389107
 jobs:
   run_code_checks:
     runs-on: ubuntu-latest
